@@ -3,8 +3,8 @@
 /**
  * add - Addition of 2 int number
  *
- * @a: number one
- * @b: number two
+ * @x: number one
+ * @y: number two
  *
  * Return: Add of number one and number two
  */
