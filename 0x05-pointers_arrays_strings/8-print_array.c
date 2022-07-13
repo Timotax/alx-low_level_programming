@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_array - prints x elements of an array of integers
@@ -6,7 +7,7 @@
  * @x: input x element
  * Return: no return
  */
-coid print_array(int *a, int x)
+void print_array(int *a, int x)
 {
 	int i = 0;
 
