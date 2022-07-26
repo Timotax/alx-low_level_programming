@@ -8,11 +8,9 @@
  */
 int main(int argc, int *argv[])
 {
-	int write;
+	int x;
 
-	for (write = 0; write < argc; write++)
-	{
-		printf("%s\n", argv[write]);
-	}
+	for (x = 0; x < argc; x++)
+		printf("%s\n", argv[x]);
 	return (0);
 }
