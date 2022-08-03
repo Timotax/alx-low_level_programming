@@ -1,7 +1,7 @@
 #include "function_pointers.h"
 
 /**
- * array_iterator - executes a function given a parameter of element in 
+ * array_iterator - executes a function given a parameter of element in
  * an array
  * @array: input integer array
  * @size: size of the array
@@ -9,7 +9,7 @@
  * 
  * Return:no return.
  */
-void array_iterator(int *array. size_t size, void (*action)(int))
+void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	unsigned int i;
 
